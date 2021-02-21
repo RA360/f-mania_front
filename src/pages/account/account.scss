@@ -1,0 +1,85 @@
+.account {
+  padding-bottom: 103px;
+  .container {
+    display: flex;
+  }
+  &__tab {
+    color: #211f1f;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ececec;
+    border-bottom: none;
+    padding: 20px 0 20px 25px;
+    &:last-child {
+      border-bottom: 1px solid #ececec;
+    }
+    &--icon {
+      fill: currentColor;
+      margin-right: 25px;
+    }
+    &.is-active {
+      background: #506bfa;
+      color: #fff;
+    }
+    &-content {
+      width: 100%;
+      margin-left: 30px;
+    }
+  }
+  &__products {
+    display: flex;
+    border-bottom: 1px solid #dedcdc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    &--img-wrap {
+      width: 106px;
+      height: 105px;
+    }
+    &--content {
+      flex-grow: 1;
+      margin-left: 14px;
+    }
+    &--head {
+      display: flex;
+    }
+    &--title {
+      font-size: 16px;
+      font-weight: 500;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    &--price {
+      font-size: 25px;
+      font-weight: 400;
+      margin-left: auto;
+    }
+    &--date {
+      margin-top: 22px;
+    }
+  }
+  &__info {
+    &--title {
+      font-size: 22px;
+      font-weight: 500;
+    }
+    &--form {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    &--item {
+      width: calc(50% - 12px);
+      margin-top: 27px;
+    }
+    &--input {
+      width: 100%;
+      border-radius: 2px;
+      margin-top: 6px;
+    }
+    &--btn {
+      width: 86px;
+      margin-top: 29px;
+    }
+  }
+}

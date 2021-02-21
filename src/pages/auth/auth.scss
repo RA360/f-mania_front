@@ -1,0 +1,54 @@
+.auth {
+  padding: 58px 0 148px;
+  &__box {
+    background: #f4f5f8;
+    width: 752px;
+    text-align: center;
+    border: 1px solid #e3e5ee;
+    padding: 60px 0;
+    margin: 0 auto;
+  }
+  &__offer {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  &__subtitle {
+    font-size: 18px;
+    margin: 25px 0 17px;
+  }
+  &__hint {
+    max-width: 426px;
+    color: #727272;
+    margin: 0 auto 18px;
+  }
+  &__form {
+    width: 354px;
+    margin: 17px auto 0;
+    &_login {
+      border-bottom: 1px solid #d2d2d2;
+      padding-bottom: 57px;
+      margin-bottom: 57px;
+    }
+  }
+  &__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  &__link {
+    color: #506bfa;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  &__btn {
+    font-size: 14px;
+    width: 176px;
+    display: block;
+    text-transform: initial;
+    padding: 13px 0;
+    margin: 0 auto;
+  }
+  &__login-btn {
+    width: 96px;
+  }
+}

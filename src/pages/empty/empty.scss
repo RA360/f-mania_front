@@ -1,0 +1,16 @@
+.empty {
+  text-align: center;
+  padding: 200px 0;
+  &__title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &__desc {
+    font-size: 15px;
+    margin: 20px 0 35px;
+  }
+  &__btn {
+    width: 172px;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,19 @@
+.breadcrumb {
+  padding-bottom: 20px;
+  &__nav {
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+  }
+  &__icon {
+    margin: 0 12px;
+  }
+  &__link {
+    font-weight: 700;
+    &.is-active {
+      color: #626262;
+      font-weight: 400;
+    }
+  }
+}

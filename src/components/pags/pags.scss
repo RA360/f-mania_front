@@ -1,0 +1,23 @@
+.pags {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 62px;
+}
+
+.pag {
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d5d5d5;
+  transition: all 0.3s ease;
+  margin-left: 5px;
+  &:hover,
+  &.is-active {
+    color: #fff;
+    background: #5558dd;
+    border-color: #5558dd;
+  }
+}
